@@ -156,7 +156,7 @@ async def on_afk(event):
             else:
                 afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
-        message_to_reply = f"My Master Has Been Gone For {afk_since}\nWhere He Is: ONLY GOD KNOWS " + \
+        message_to_reply = f"Hey I'm not available right now {afk_since}\nWhere Am I?: ONLY GOD KNOWS " + \
             f"\n\n__I promise I'll back in a few hours__\n**REASON**: {reason}" \
             if reason \
             else (str(choice(AFKSTR)))
